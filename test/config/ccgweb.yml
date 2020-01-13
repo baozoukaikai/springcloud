@@ -1,1 +1,18 @@
+server:
+  port: 8767
+spring:
+  application:
+    name: ccgweb
 
+#手动刷新配置
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh,health,info
+
+#OpenFeign 是默认自带熔断器的，但是默认关闭的，我们可以在 application.yml 中开启它
+#开启熔断器
+feign:
+  hystrix:
+    enabled: true
