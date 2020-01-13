@@ -2,7 +2,7 @@ server:
   port: 8762
 spring:
   application:
-    name: eurekaclient
+    name: dcs
 
 #手动刷新配置
 management:
