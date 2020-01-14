@@ -21,7 +21,7 @@ debug: false
 
 mybatis:
   config-location: classpath:mybatis.xml
-  mapper-locations: classpath:com/yhxy/mapping/**/*.xml
+  mapper-locations: classpath:org/eureka/client/mapper/**/*.xml
 
 spring:
   devtools:
