@@ -1,8 +1,5 @@
 server:
   port: 8762
-spring:
-  application:
-    name: dcs
 
 #手动刷新配置
 management:
@@ -24,6 +21,8 @@ mybatis:
   mapper-locations: classpath:org/eureka/client/mapper/**/*.xml
 
 spring:
+  application:
+    name: dcs
   devtools:
     restart:
       enabled: true  #设置开启热部署   true为开启
@@ -36,16 +35,6 @@ spring:
       url: jdbc:mysql://rm-wz9cft8yxf94n94d4o.mysql.rds.aliyuncs.com/yhykt?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull
       username: root
       password: Yhxy2017
-    db2:  # 宁夏工商 oracle
-      driver-class-name: oracle.jdbc.driver.OracleDriver
-      url: jdbc:oracle:thin:@10.103.0.20:1521/KFPTDB
-      username: usr_datai
-      password: wisedu_2019
-    db3:
-      driver-class-name: com.mysql.jdbc.Driver
-      url: jdbc:mysql://10.103.12.62/lt_zhkt?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull
-      username: root
-      password: 884378abc,./
    
   servlet:
     multipart:
