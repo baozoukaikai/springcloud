@@ -33,17 +33,17 @@ spring:
     type: com.alibaba.druid.pool.DruidDataSource
     db:
       driver-class-name: com.mysql.jdbc.Driver
-      jdbc-url: jdbc:mysql://rm-wz9cft8yxf94n94d4o.mysql.rds.aliyuncs.com/yhykt?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull
+      url: jdbc:mysql://rm-wz9cft8yxf94n94d4o.mysql.rds.aliyuncs.com/yhykt?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull
       username: root
       password: Yhxy2017
     db2:  # 宁夏工商 oracle
       driver-class-name: oracle.jdbc.driver.OracleDriver
-      jdbc-url: jdbc:oracle:thin:@10.103.0.20:1521/KFPTDB
+      url: jdbc:oracle:thin:@10.103.0.20:1521/KFPTDB
       username: usr_datai
       password: wisedu_2019
     db3:
       driver-class-name: com.mysql.jdbc.Driver
-      jdbc-url: jdbc:mysql://10.103.12.62/lt_zhkt?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull
+      url: jdbc:mysql://10.103.12.62/lt_zhkt?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull
       username: root
       password: 884378abc,./
    
