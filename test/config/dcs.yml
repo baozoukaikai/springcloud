@@ -33,7 +33,15 @@ spring:
       url: jdbc:mysql://rm-wz9cft8yxf94n94d4o.mysql.rds.aliyuncs.com/yhykt?useUnicode=true&characterEncoding=UTF-8&useSSL=false
       username: root
       password: Yhxy2017
-   
+    druid2:
+      url: jdbc:mysql://rm-wz9cft8yxf94n94d4o.mysql.rds.aliyuncs.com/yhykt?useUnicode=true&characterEncoding=UTF-8&useSSL=false
+      username: root
+      password: Yhxy2017
+    druid3:
+      url: jdbc:mysql://rm-wz9cft8yxf94n94d4o.mysql.rds.aliyuncs.com/yhykt?useUnicode=true&characterEncoding=UTF-8&useSSL=false
+      username: root
+      password: Yhxy2017
+
   servlet:
     multipart:
       max-file-size: 100MB #20MB  限制上传文件大小
