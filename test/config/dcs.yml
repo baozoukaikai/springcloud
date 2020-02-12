@@ -75,6 +75,7 @@ http:
 jwtKey: 
     secret: zhkt-Alex-2019
     tokenExpireTime: 14400000 #2小时：7200000   48小时：172800000   一年： 31536000000
+    cousCodeExpireTime: 120000 #10分钟
     
 ftp:
     host: 47.94.238.78 #host: 47.94.238.78
