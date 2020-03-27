@@ -29,8 +29,8 @@ spring:
   freemarker:
      cache: false    #页面不加载缓存，修改即时生效
   datasource:
-    driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://rm-wz9cft8yxf94n94d4o.mysql.rds.aliyuncs.com/qzykt?useUnicode=true&characterEncoding=UTF-8&useSSL=false
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://rm-wz9cft8yxf94n94d4o.mysql.rds.aliyuncs.com/qzykt?serverTimezone=UTC&useUnicode=true&characterEncoding=UTF-8&useSSL=false
     username: root
     password: Yhxy2017
 
