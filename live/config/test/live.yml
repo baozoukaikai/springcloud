@@ -29,6 +29,7 @@ spring:
   freemarker:
      cache: false    #页面不加载缓存，修改即时生效
   datasource:
+    driver-class-name: com.mysql.jdbc.Driver
     druid:
       jdbcUrl: jdbc:mysql://rm-wz9cft8yxf94n94d4o.mysql.rds.aliyuncs.com/qzykt?useUnicode=true&characterEncoding=UTF-8&useSSL=false
       url: jdbc:mysql://rm-wz9cft8yxf94n94d4o.mysql.rds.aliyuncs.com/qzykt?useUnicode=true&characterEncoding=UTF-8&useSSL=false
