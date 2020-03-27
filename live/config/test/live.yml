@@ -22,7 +22,7 @@ mybatis:
 
 spring:
   application:
-    name: ccg
+    name: live
   devtools:
     restart:
       enabled: true  #设置开启热部署   true为开启
